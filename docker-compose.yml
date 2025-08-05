@@ -1,0 +1,10 @@
+services:
+  uspy:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - uspy_out:/code/out
+
+volumes:
+  uspy_out:
