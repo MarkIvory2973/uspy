@@ -7,7 +7,7 @@ Steal files from usb disks.
 Install dependencies:
 
 ```bash
-cd ProxyTest/src
+cd uspy/src
 go mod tidy
 ```
 
