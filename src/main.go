@@ -156,7 +156,7 @@ func main() {
 	flag.StringVar(&_scan_rules, "scan-rules", "ppt,pptx,xls,xlsx,doc,docx,pdf,txt,jpg,jpeg,png,bmp,gif", "Scan rules")
 	flag.IntVar(&scan_level, "scan-level", 20, "Scan level")
 	flag.StringVar(&admin_name, "admin-name", "Admin_USpy", "Admin USB volume name")
-	flag.StringVar(&temp_path, "temp-path", "D:/USpy/", "Temporary folder path")
+	flag.StringVar(&temp_path, "temp-path", "D:/uspy/", "Temporary folder path")
 	flag.Parse()
 	scan_rules := strings.Split(_scan_rules, ",")
 

@@ -1,4 +1,4 @@
-module USpy
+module uspy
 
 go 1.23.0
 
